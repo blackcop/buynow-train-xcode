@@ -65,6 +65,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="O1y-hj-CWG" kind="push" id="XrK-qS-IS6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4G8-mK-e6P">
                                 <constraints>
@@ -78,6 +81,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="n8b-zS-nCz" kind="push" id="tnL-OJ-pcA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkk-JX-Huf">
                                 <constraints>
@@ -91,6 +97,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="S5C-l3-JD4" kind="push" id="vo0-pM-hSL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ac9-e3-Tnw">
                                 <constraints>
@@ -105,7 +114,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YPH-Ug-NvJ" kind="push" id="MWY-g3-BFo"/>
+                                    <segue destination="YPH-Ug-NvJ" kind="push" id="VxO-ed-z6C"/>
                                 </connections>
                             </button>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hax-ET-2ah">
@@ -196,7 +205,7 @@
             </objects>
             <point key="canvasLocation" x="-479" y="1203"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - 更多-->
         <scene sceneID="qau-5O-RJh">
             <objects>
                 <viewController id="Exy-35-hHG" sceneMemberID="viewController">
@@ -205,13 +214,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="me9-fQ-mF6"/>
+                    <navigationItem key="navigationItem" title="更多" id="me9-fQ-mF6">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="GiO-ZU-VFg"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8bt-4g-XV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="391" y="1203"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - 个人中心-->
         <scene sceneID="2bg-wd-efy">
             <objects>
                 <viewController id="WVM-x4-QUf" sceneMemberID="viewController">
@@ -220,7 +231,9 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="X5x-8A-Aqu"/>
+                    <navigationItem key="navigationItem" title="个人中心" id="X5x-8A-Aqu">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="zCz-zl-2N6"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tGK-Ow-0dJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -257,6 +270,55 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ik2-ee-cI0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="268" y="-600"/>
+        </scene>
+        <!--View Controller - 类别筛选-->
+        <scene sceneID="J0Q-E2-y7p">
+            <objects>
+                <viewController id="O1y-hj-CWG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="84j-nT-2wp">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="类别筛选" id="MLY-p3-4Bm">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="fOO-ZN-cor"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaV-Y6-vkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="-600"/>
+        </scene>
+        <!--View Controller - 设施要求筛选-->
+        <scene sceneID="Vzv-yq-YVY">
+            <objects>
+                <viewController id="S5C-l3-JD4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yng-ge-Krm">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="设施要求筛选" id="JDc-hc-dE7">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="xj8-YA-s6B"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9FL-Rp-LOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="995" y="-599"/>
+        </scene>
+        <!--View Controller - 综合检索-->
+        <scene sceneID="exF-6f-nHJ">
+            <objects>
+                <viewController id="n8b-zS-nCz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ADg-RT-Vs1">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="综合检索" id="woq-fk-Cny"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9C-OP-zur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1359" y="-599"/>
         </scene>
     </scenes>
     <classes>
