@@ -12,9 +12,9 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afG-Zn-Dgb">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY1-xP-3eZ">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="73" id="wcc-34-hKV"/>
+                                    <constraint firstAttribute="width" constant="73" id="IBn-nE-QTy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="决定">
@@ -28,8 +28,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="afG-Zn-Dgb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7gx-ek-Jjh"/>
-                            <constraint firstAttribute="bottom" secondItem="afG-Zn-Dgb" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Joy-xl-WxY"/>
+                            <constraint firstAttribute="bottom" secondItem="LY1-xP-3eZ" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Z7l-vY-fdo"/>
+                            <constraint firstAttribute="trailing" secondItem="LY1-xP-3eZ" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="sNn-hC-uyn"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -7,102 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		885199B51741FBF50055C379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885199B41741FBF50055C379 /* UIKit.framework */; };
-		885199B71741FBF50055C379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885199B61741FBF50055C379 /* Foundation.framework */; };
-		885199B91741FBF50055C379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885199B81741FBF50055C379 /* CoreGraphics.framework */; };
-		885199BF1741FBF50055C379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 885199BD1741FBF50055C379 /* InfoPlist.strings */; };
-		885199C11741FBF50055C379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885199C01741FBF50055C379 /* main.m */; };
-		885199C51741FBF50055C379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885199C41741FBF50055C379 /* AppDelegate.m */; };
-		885199C71741FBF50055C379 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 885199C61741FBF50055C379 /* Default.png */; };
-		885199C91741FBF50055C379 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 885199C81741FBF50055C379 /* Default@2x.png */; };
-		885199CB1741FBF50055C379 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 885199CA1741FBF50055C379 /* Default-568h@2x.png */; };
-		885199CE1741FBF50055C379 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885199CC1741FBF50055C379 /* MainStoryboard.storyboard */; };
-		885199D11741FBF50055C379 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885199D01741FBF50055C379 /* ViewController.m */; };
+		887135B3174200C200559866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887135B2174200C200559866 /* UIKit.framework */; };
+		887135B5174200C200559866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887135B4174200C200559866 /* Foundation.framework */; };
+		887135B7174200C200559866 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887135B6174200C200559866 /* CoreGraphics.framework */; };
+		887135BD174200C200559866 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 887135BB174200C200559866 /* InfoPlist.strings */; };
+		887135BF174200C200559866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 887135BE174200C200559866 /* main.m */; };
+		887135C3174200C200559866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 887135C2174200C200559866 /* AppDelegate.m */; };
+		887135C5174200C200559866 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 887135C4174200C200559866 /* Default.png */; };
+		887135C7174200C200559866 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887135C6174200C200559866 /* Default@2x.png */; };
+		887135C9174200C300559866 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887135C8174200C300559866 /* Default-568h@2x.png */; };
+		887135CC174200C300559866 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887135CA174200C300559866 /* MainStoryboard.storyboard */; };
+		887135CF174200C300559866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887135CE174200C300559866 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		885199B11741FBF50055C379 /* Life Assistant 0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		885199B41741FBF50055C379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		885199B61741FBF50055C379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		885199B81741FBF50055C379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		885199BC1741FBF50055C379 /* Life Assistant 0.3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Life Assistant 0.3-Info.plist"; sourceTree = "<group>"; };
-		885199BE1741FBF50055C379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		885199C01741FBF50055C379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		885199C21741FBF50055C379 /* Life Assistant 0.3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Life Assistant 0.3-Prefix.pch"; sourceTree = "<group>"; };
-		885199C31741FBF50055C379 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		885199C41741FBF50055C379 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		885199C61741FBF50055C379 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		885199C81741FBF50055C379 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		885199CA1741FBF50055C379 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		885199CD1741FBF50055C379 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		885199CF1741FBF50055C379 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		885199D01741FBF50055C379 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		887135AF174200C200559866 /* Life Assistant 0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		887135B2174200C200559866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		887135B4174200C200559866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		887135B6174200C200559866 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		887135BA174200C200559866 /* Life Assistant 0.3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Life Assistant 0.3-Info.plist"; sourceTree = "<group>"; };
+		887135BC174200C200559866 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		887135BE174200C200559866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		887135C0174200C200559866 /* Life Assistant 0.3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Life Assistant 0.3-Prefix.pch"; sourceTree = "<group>"; };
+		887135C1174200C200559866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		887135C2174200C200559866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		887135C4174200C200559866 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		887135C6174200C200559866 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		887135C8174200C300559866 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		887135CB174200C300559866 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		887135CD174200C300559866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		887135CE174200C300559866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		885199AE1741FBF50055C379 /* Frameworks */ = {
+		887135AC174200C200559866 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885199B51741FBF50055C379 /* UIKit.framework in Frameworks */,
-				885199B71741FBF50055C379 /* Foundation.framework in Frameworks */,
-				885199B91741FBF50055C379 /* CoreGraphics.framework in Frameworks */,
+				887135B3174200C200559866 /* UIKit.framework in Frameworks */,
+				887135B5174200C200559866 /* Foundation.framework in Frameworks */,
+				887135B7174200C200559866 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		885199A81741FBF50055C379 = {
+		887135A6174200C200559866 = {
 			isa = PBXGroup;
 			children = (
-				885199BA1741FBF50055C379 /* Life Assistant 0.3 */,
-				885199B31741FBF50055C379 /* Frameworks */,
-				885199B21741FBF50055C379 /* Products */,
+				887135B8174200C200559866 /* Life Assistant 0.3 */,
+				887135B1174200C200559866 /* Frameworks */,
+				887135B0174200C200559866 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		885199B21741FBF50055C379 /* Products */ = {
+		887135B0174200C200559866 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				885199B11741FBF50055C379 /* Life Assistant 0.3.app */,
+				887135AF174200C200559866 /* Life Assistant 0.3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		885199B31741FBF50055C379 /* Frameworks */ = {
+		887135B1174200C200559866 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				885199B41741FBF50055C379 /* UIKit.framework */,
-				885199B61741FBF50055C379 /* Foundation.framework */,
-				885199B81741FBF50055C379 /* CoreGraphics.framework */,
+				887135B2174200C200559866 /* UIKit.framework */,
+				887135B4174200C200559866 /* Foundation.framework */,
+				887135B6174200C200559866 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		885199BA1741FBF50055C379 /* Life Assistant 0.3 */ = {
+		887135B8174200C200559866 /* Life Assistant 0.3 */ = {
 			isa = PBXGroup;
 			children = (
-				885199C31741FBF50055C379 /* AppDelegate.h */,
-				885199C41741FBF50055C379 /* AppDelegate.m */,
-				885199CC1741FBF50055C379 /* MainStoryboard.storyboard */,
-				885199CF1741FBF50055C379 /* ViewController.h */,
-				885199D01741FBF50055C379 /* ViewController.m */,
-				885199BB1741FBF50055C379 /* Supporting Files */,
+				887135C1174200C200559866 /* AppDelegate.h */,
+				887135C2174200C200559866 /* AppDelegate.m */,
+				887135CA174200C300559866 /* MainStoryboard.storyboard */,
+				887135CD174200C300559866 /* ViewController.h */,
+				887135CE174200C300559866 /* ViewController.m */,
+				887135B9174200C200559866 /* Supporting Files */,
 			);
 			path = "Life Assistant 0.3";
 			sourceTree = "<group>";
 		};
-		885199BB1741FBF50055C379 /* Supporting Files */ = {
+		887135B9174200C200559866 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				885199BC1741FBF50055C379 /* Life Assistant 0.3-Info.plist */,
-				885199BD1741FBF50055C379 /* InfoPlist.strings */,
-				885199C01741FBF50055C379 /* main.m */,
-				885199C21741FBF50055C379 /* Life Assistant 0.3-Prefix.pch */,
-				885199C61741FBF50055C379 /* Default.png */,
-				885199C81741FBF50055C379 /* Default@2x.png */,
-				885199CA1741FBF50055C379 /* Default-568h@2x.png */,
+				887135BA174200C200559866 /* Life Assistant 0.3-Info.plist */,
+				887135BB174200C200559866 /* InfoPlist.strings */,
+				887135BE174200C200559866 /* main.m */,
+				887135C0174200C200559866 /* Life Assistant 0.3-Prefix.pch */,
+				887135C4174200C200559866 /* Default.png */,
+				887135C6174200C200559866 /* Default@2x.png */,
+				887135C8174200C300559866 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,13 +110,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		885199B01741FBF50055C379 /* Life Assistant 0.3 */ = {
+		887135AE174200C200559866 /* Life Assistant 0.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 885199D41741FBF50055C379 /* Build configuration list for PBXNativeTarget "Life Assistant 0.3" */;
+			buildConfigurationList = 887135D2174200C300559866 /* Build configuration list for PBXNativeTarget "Life Assistant 0.3" */;
 			buildPhases = (
-				885199AD1741FBF50055C379 /* Sources */,
-				885199AE1741FBF50055C379 /* Frameworks */,
-				885199AF1741FBF50055C379 /* Resources */,
+				887135AB174200C200559866 /* Sources */,
+				887135AC174200C200559866 /* Frameworks */,
+				887135AD174200C200559866 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,76 +124,76 @@
 			);
 			name = "Life Assistant 0.3";
 			productName = "Life Assistant 0.3";
-			productReference = 885199B11741FBF50055C379 /* Life Assistant 0.3.app */;
+			productReference = 887135AF174200C200559866 /* Life Assistant 0.3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		885199A91741FBF50055C379 /* Project object */ = {
+		887135A7174200C200559866 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = BSFit;
 			};
-			buildConfigurationList = 885199AC1741FBF50055C379 /* Build configuration list for PBXProject "Life Assistant 0.3" */;
+			buildConfigurationList = 887135AA174200C200559866 /* Build configuration list for PBXProject "Life Assistant 0.3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 885199A81741FBF50055C379;
-			productRefGroup = 885199B21741FBF50055C379 /* Products */;
+			mainGroup = 887135A6174200C200559866;
+			productRefGroup = 887135B0174200C200559866 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				885199B01741FBF50055C379 /* Life Assistant 0.3 */,
+				887135AE174200C200559866 /* Life Assistant 0.3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		885199AF1741FBF50055C379 /* Resources */ = {
+		887135AD174200C200559866 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885199BF1741FBF50055C379 /* InfoPlist.strings in Resources */,
-				885199C71741FBF50055C379 /* Default.png in Resources */,
-				885199C91741FBF50055C379 /* Default@2x.png in Resources */,
-				885199CB1741FBF50055C379 /* Default-568h@2x.png in Resources */,
-				885199CE1741FBF50055C379 /* MainStoryboard.storyboard in Resources */,
+				887135BD174200C200559866 /* InfoPlist.strings in Resources */,
+				887135C5174200C200559866 /* Default.png in Resources */,
+				887135C7174200C200559866 /* Default@2x.png in Resources */,
+				887135C9174200C300559866 /* Default-568h@2x.png in Resources */,
+				887135CC174200C300559866 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		885199AD1741FBF50055C379 /* Sources */ = {
+		887135AB174200C200559866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				885199C11741FBF50055C379 /* main.m in Sources */,
-				885199C51741FBF50055C379 /* AppDelegate.m in Sources */,
-				885199D11741FBF50055C379 /* ViewController.m in Sources */,
+				887135BF174200C200559866 /* main.m in Sources */,
+				887135C3174200C200559866 /* AppDelegate.m in Sources */,
+				887135CF174200C300559866 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		885199BD1741FBF50055C379 /* InfoPlist.strings */ = {
+		887135BB174200C200559866 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				885199BE1741FBF50055C379 /* en */,
+				887135BC174200C200559866 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		885199CC1741FBF50055C379 /* MainStoryboard.storyboard */ = {
+		887135CA174200C300559866 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				885199CD1741FBF50055C379 /* en */,
+				887135CB174200C300559866 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		885199D21741FBF50055C379 /* Debug */ = {
+		887135D0174200C300559866 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		885199D31741FBF50055C379 /* Release */ = {
+		887135D1174200C300559866 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Release;
 		};
-		885199D51741FBF50055C379 /* Debug */ = {
+		887135D3174200C300559866 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -268,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		885199D61741FBF50055C379 /* Release */ = {
+		887135D4174200C300559866 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -282,24 +282,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		885199AC1741FBF50055C379 /* Build configuration list for PBXProject "Life Assistant 0.3" */ = {
+		887135AA174200C200559866 /* Build configuration list for PBXProject "Life Assistant 0.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				885199D21741FBF50055C379 /* Debug */,
-				885199D31741FBF50055C379 /* Release */,
+				887135D0174200C300559866 /* Debug */,
+				887135D1174200C300559866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		885199D41741FBF50055C379 /* Build configuration list for PBXNativeTarget "Life Assistant 0.3" */ = {
+		887135D2174200C300559866 /* Build configuration list for PBXNativeTarget "Life Assistant 0.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				885199D51741FBF50055C379 /* Debug */,
-				885199D61741FBF50055C379 /* Release */,
+				887135D3174200C300559866 /* Debug */,
+				887135D4174200C300559866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 885199A91741FBF50055C379 /* Project object */;
+	rootObject = 887135A7174200C200559866 /* Project object */;
 }
