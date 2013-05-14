@@ -21,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0F218C17420E200009FA99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		7C0F218D17420E200009FA99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		887135AF174200C200559866 /* Life Assistant 0.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		887135B2174200C200559866 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		887135B4174200C200559866 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -142,6 +144,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
 			);
 			mainGroup = 887135A6174200C200559866;
 			productRefGroup = 887135B0174200C200559866 /* Products */;
@@ -186,6 +189,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				887135BC174200C200559866 /* en */,
+				7C0F218D17420E200009FA99 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -194,6 +198,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				887135CB174200C300559866 /* en */,
+				7C0F218C17420E200009FA99 /* zh-Hans */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				887135D4174200C300559866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
