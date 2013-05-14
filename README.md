@@ -1,4 +1,0 @@
-buynow-train-xcode
-==================
-
-xcode
