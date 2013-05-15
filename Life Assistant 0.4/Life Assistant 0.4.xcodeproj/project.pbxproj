@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
 		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
 		884A87C41742608A002E1F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C31742608A002E1F11 /* Foundation.framework */; };
 		884A87C61742608A002E1F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C51742608A002E1F11 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
+		7C539069174326060006D48C /* regionalScreeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regionalScreeningViewController.m; sourceTree = "<group>"; };
 		884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884A87C11742608A002E1F11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		884A87C31742608A002E1F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +97,8 @@
 				884A87D01742608A002E1F11 /* AppDelegate.h */,
 				884A87D11742608A002E1F11 /* AppDelegate.m */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				7C539068174326060006D48C /* regionalScreeningViewController.h */,
+				7C539069174326060006D48C /* regionalScreeningViewController.m */,
 				884A87DC1742608A002E1F11 /* ViewController.h */,
 				884A87DD1742608A002E1F11 /* ViewController.m */,
 				884A87C81742608A002E1F11 /* Supporting Files */,
@@ -185,6 +190,7 @@
 				884A87CE1742608A002E1F11 /* main.m in Sources */,
 				884A87D21742608A002E1F11 /* AppDelegate.m in Sources */,
 				884A87DE1742608A002E1F11 /* ViewController.m in Sources */,
+				7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +313,7 @@
 				884A87E31742608A002E1F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
