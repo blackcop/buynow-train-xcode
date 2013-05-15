@@ -26,6 +26,7 @@
 		88DA77C617434AB0006F5613 /* u17_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C317434AB0006F5613 /* u17_normal.png */; };
 		88DA77C717434AB0006F5613 /* u32_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C417434AB0006F5613 /* u32_normal.png */; };
 		88DA77C817434AB0006F5613 /* u35_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 88DA77C517434AB0006F5613 /* u35_normal.png */; };
+		88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DA7830174365EE006F5613 /* SearchResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		88DA77C317434AB0006F5613 /* u17_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u17_normal.png; sourceTree = "<group>"; };
 		88DA77C417434AB0006F5613 /* u32_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u32_normal.png; sourceTree = "<group>"; };
 		88DA77C517434AB0006F5613 /* u35_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u35_normal.png; sourceTree = "<group>"; };
+		88DA782F174365EE006F5613 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		88DA7830174365EE006F5613 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				884A87D01742608A002E1F11 /* AppDelegate.h */,
 				884A87D11742608A002E1F11 /* AppDelegate.m */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				88DA782F174365EE006F5613 /* SearchResultViewController.h */,
+				88DA7830174365EE006F5613 /* SearchResultViewController.m */,
 				7C539068174326060006D48C /* regionalScreeningViewController.h */,
 				7C539069174326060006D48C /* regionalScreeningViewController.m */,
 				884A87DC1742608A002E1F11 /* ViewController.h */,
@@ -219,6 +224,7 @@
 				884A87D21742608A002E1F11 /* AppDelegate.m in Sources */,
 				884A87DE1742608A002E1F11 /* ViewController.m in Sources */,
 				7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */,
+				88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
