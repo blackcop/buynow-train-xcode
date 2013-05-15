@@ -66,6 +66,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"regionalCell"];
     
     switch (indexPath.section) {
@@ -79,5 +80,6 @@
     }
     return cell;
 }
+
 
 @end
