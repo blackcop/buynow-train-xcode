@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
-		7C53906D1743661F0006D48C /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53906C1743661F0006D48C /* RegionalTableViewCell.m */; };
 		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
 		884A87C41742608A002E1F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C31742608A002E1F11 /* Foundation.framework */; };
 		884A87C61742608A002E1F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C51742608A002E1F11 /* CoreGraphics.framework */; };
@@ -31,10 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
+		7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
 		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
 		7C539069174326060006D48C /* regionalScreeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regionalScreeningViewController.m; sourceTree = "<group>"; };
-		7C53906B1743661F0006D48C /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
-		7C53906C1743661F0006D48C /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
 		884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884A87C11742608A002E1F11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		884A87C31742608A002E1F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +114,8 @@
 				884A87D01742608A002E1F11 /* AppDelegate.h */,
 				884A87D11742608A002E1F11 /* AppDelegate.m */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */,
+				7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */,
 				88DA782F174365EE006F5613 /* SearchResultViewController.h */,
 				88DA7830174365EE006F5613 /* SearchResultViewController.m */,
 				7C539068174326060006D48C /* regionalScreeningViewController.h */,
@@ -228,6 +230,7 @@
 				884A87DE1742608A002E1F11 /* ViewController.m in Sources */,
 				7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */,
 				88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */,
+				7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
