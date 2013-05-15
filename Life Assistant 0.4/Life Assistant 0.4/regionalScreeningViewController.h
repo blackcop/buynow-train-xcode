@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface regionalScreeningViewController : UIViewController
+@interface regionalScreeningViewController : UIViewController<UITableViewDataSource>
+
+@property(nonatomic,strong) NSArray *regional;
 
 @end
