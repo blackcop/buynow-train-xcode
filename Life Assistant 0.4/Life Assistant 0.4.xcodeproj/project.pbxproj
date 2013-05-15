@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
+		7C53906D1743661F0006D48C /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C53906C1743661F0006D48C /* RegionalTableViewCell.m */; };
 		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
 		884A87C41742608A002E1F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C31742608A002E1F11 /* Foundation.framework */; };
 		884A87C61742608A002E1F11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C51742608A002E1F11 /* CoreGraphics.framework */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
 		7C539069174326060006D48C /* regionalScreeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regionalScreeningViewController.m; sourceTree = "<group>"; };
+		7C53906B1743661F0006D48C /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
+		7C53906C1743661F0006D48C /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
 		884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		884A87C11742608A002E1F11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		884A87C31742608A002E1F11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
