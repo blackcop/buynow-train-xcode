@@ -520,9 +520,6 @@
             <point key="canvasLocation" x="1359" y="-599"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="u9_normal.png" width="110" height="62"/>
-    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
