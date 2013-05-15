@@ -17,11 +17,7 @@
 @synthesize storeData;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    
-    self.storeData=[[NSArray alloc]
-                   initWithObjects:@"日本料理", @"中华料理",@"酒吧",nil];
-    
+{    
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
@@ -31,6 +27,8 @@
 
 - (void)viewDidLoad
 {
+    self.storeData=[[NSArray alloc]
+                    initWithObjects:@"日本料理", @"中华料理",@"酒吧",nil];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
