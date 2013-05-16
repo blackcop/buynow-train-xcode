@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		525288D817449EB6009F278B /* CouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525288D417449EB5009F278B /* CouponCell.m */; };
+		525288D917449EB6009F278B /* CouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525288D517449EB6009F278B /* CouponCell.xib */; };
+		525288DA17449EB6009F278B /* CouponListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525288D717449EB6009F278B /* CouponListViewController.m */; };
 		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
 		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
@@ -31,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		525288D317449EB5009F278B /* CouponCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponCell.h; path = ../CouponCell.h; sourceTree = "<group>"; };
+		525288D417449EB5009F278B /* CouponCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponCell.m; path = ../CouponCell.m; sourceTree = "<group>"; };
+		525288D517449EB6009F278B /* CouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CouponCell.xib; path = ../CouponCell.xib; sourceTree = "<group>"; };
+		525288D617449EB6009F278B /* CouponListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponListViewController.h; path = ../CouponListViewController.h; sourceTree = "<group>"; };
+		525288D717449EB6009F278B /* CouponListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponListViewController.m; path = ../CouponListViewController.m; sourceTree = "<group>"; };
 		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
 		7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
 		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
@@ -114,6 +122,11 @@
 				884A87D01742608A002E1F11 /* AppDelegate.h */,
 				884A87D11742608A002E1F11 /* AppDelegate.m */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				525288D317449EB5009F278B /* CouponCell.h */,
+				525288D417449EB5009F278B /* CouponCell.m */,
+				525288D517449EB6009F278B /* CouponCell.xib */,
+				525288D617449EB6009F278B /* CouponListViewController.h */,
+				525288D717449EB6009F278B /* CouponListViewController.m */,
 				7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */,
 				7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */,
 				88DA782F174365EE006F5613 /* SearchResultViewController.h */,
@@ -215,6 +228,7 @@
 				88DA77C617434AB0006F5613 /* u17_normal.png in Resources */,
 				88DA77C717434AB0006F5613 /* u32_normal.png in Resources */,
 				88DA77C817434AB0006F5613 /* u35_normal.png in Resources */,
+				525288D917449EB6009F278B /* CouponCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +245,8 @@
 				7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */,
 				88DA7831174365EE006F5613 /* SearchResultViewController.m in Sources */,
 				7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */,
+				525288D817449EB6009F278B /* CouponCell.m in Sources */,
+				525288DA17449EB6009F278B /* CouponListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
