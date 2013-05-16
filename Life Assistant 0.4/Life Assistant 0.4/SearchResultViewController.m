@@ -83,10 +83,18 @@
             cell.imageView.image = [UIImage imageNamed:[[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"picture"]];
             
             
-            cell.detailTextLabel.text = [
-                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"category"]
-                                         stringByAppendingString:
-                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"price"]];
+            cell.detailTextLabel.text = [ [NSString alloc]initWithFormat:@"%@%@\n%@\n%@\n%@\n%@",
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"category"],
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"price"],
+                                         
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"facility"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"address"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"telephone"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"coupon"]
+                                         ];
             
             
             
