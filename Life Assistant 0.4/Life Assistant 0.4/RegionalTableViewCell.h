@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RegionalTableViewCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *lable2;
 
 @end

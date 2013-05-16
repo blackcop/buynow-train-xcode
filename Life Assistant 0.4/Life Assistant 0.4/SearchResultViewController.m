@@ -34,7 +34,7 @@
     //self.storeData=[[NSArray alloc]
           //          initWithObjects:@"日本料理", @"中华料理",@"酒吧",nil];
     [self createStoreFactory ];
-    
+    self.navigationItem.title = [NSString stringWithFormat:@"共搜索到%d个商户",[[self.storeData objectAtIndex:0] count] ] ;
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
@@ -55,7 +55,8 @@
 {
     switch (section) {
         case 0:
-            return [self.storeData count];
+//            return [self.storeData count];
+            return [[self.storeData objectAtIndex:section] count];
             break;
             
         default:
@@ -77,6 +78,30 @@
     switch (indexPath.section) {
         case 0:
             cell.textLabel.text= [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"name"];
+            
+            
+            cell.imageView.image = [UIImage imageNamed:[[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"picture"]];
+            
+            
+            cell.detailTextLabel.text = [ [NSString alloc]initWithFormat:@"%@%@\n%@\n%@\n%@\n%@",
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"category"],
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"price"],
+                                         
+                                         
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"facility"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"address"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"telephone"],
+                                         [[[self.storeData objectAtIndex:indexPath.section]objectAtIndex:indexPath.row] objectForKey:@"coupon"]
+                                         ];
+            
+            
+            
+            
+            
+            
+            
             break;
             
         default:
@@ -111,6 +136,28 @@
 
         ]
     ];
+    
+    [storeMutableArray addObject:
+     [[NSDictionary alloc]
+      initWithObjectsAndKeys:
+      @"中华料理",@"category",
+      @"全家",@"name",
+      @"￥28",@"price",
+      @"u39_normal.png",@"picture",
+      @"卡  发票 包间 ",@"facility",
+      @"地址：EAC1楼",@"address",
+      @"优惠：加2元，送水果",@"coupon",
+      @"571-64238422",@"telephone",
+      
+      
+      
+      nil
+      
+      ]
+     ];
+    
+   
+    
     
     self.storeData = [[NSArray alloc] initWithObjects:storeMutableArray, nil];
     }
