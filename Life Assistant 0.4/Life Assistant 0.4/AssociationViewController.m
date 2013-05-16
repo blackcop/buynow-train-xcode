@@ -14,9 +14,14 @@
 
 @implementation AssociationViewController
 
-- (id)initWithStyle:(UITableViewStyle)style
+@synthesize AssocaitionNotes;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
-    self = [super initWithStyle:style];
+    
+    
+    
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
     }
@@ -24,8 +29,11 @@
 }
 
 - (void)viewDidLoad
+
 {
+    self.AssocaitionNotes = [[NSArray alloc] initWithObjects:@"同乡会", nil];
     [super viewDidLoad];
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -53,14 +61,13 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.AssocaitionNotes count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AssocaitionCell"];
+    cell.textLabel.text = [self.AssocaitionNotes objectAtIndex:indexPath.row];
     // Configure the cell...
     
     return cell;
@@ -106,7 +113,7 @@
 */
 
 #pragma mark - Table view delegate
-
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
@@ -116,6 +123,8 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
-}
+//}
+
+
 
 @end

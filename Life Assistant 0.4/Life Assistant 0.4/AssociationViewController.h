@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AssociationViewController : UITableViewController
+@interface AssociationViewController : UIViewController
+<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic,strong) NSArray *AssocaitionNotes;
 
 @end
