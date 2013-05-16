@@ -160,12 +160,7 @@
     
     
     self.storeData = [[NSArray alloc] initWithObjects:storeMutableArray, nil];
-    
-    
-    
-    
-    
-}
+    }
 
 
 
