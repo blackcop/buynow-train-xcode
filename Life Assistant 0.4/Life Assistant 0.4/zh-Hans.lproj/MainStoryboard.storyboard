@@ -239,22 +239,22 @@
             </objects>
             <point key="canvasLocation" x="401" y="189"/>
         </scene>
-        <!--View Controller - 详情-->
+        <!--Detail View Controller - 详情-->
         <scene sceneID="8aV-tD-7VC">
             <objects>
-                <viewController id="YEZ-Tg-kMS" sceneMemberID="viewController">
+                <viewController id="YEZ-Tg-kMS" customClass="DetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pFN-P0-cCg">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-2y-7cM">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="FdJ-Jz-Cj0"/>
-                                    <constraint firstAttribute="width" constant="31" id="X4t-QT-NkY"/>
+                                    <constraint firstAttribute="height" constant="26" id="2Jj-8k-ymJ"/>
+                                    <constraint firstAttribute="width" constant="26" id="ekd-5m-gb1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" title="定位" image="u17_normal.png">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
@@ -306,12 +306,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Bak-2y-7cM" secondAttribute="trailing" constant="25" id="GY3-2J-1ks"/>
                             <constraint firstAttribute="trailing" secondItem="lWc-pN-2i0" secondAttribute="trailing" constant="64" id="HBx-1h-EZz"/>
                             <constraint firstItem="4LY-3H-trY" firstAttribute="leading" secondItem="pFN-P0-cCg" secondAttribute="leading" type="default" id="O4N-Fj-qVx"/>
                             <constraint firstItem="Bak-2y-7cM" firstAttribute="top" secondItem="pFN-P0-cCg" secondAttribute="top" constant="198" id="SlT-da-a0i"/>
                             <constraint firstItem="4LY-3H-trY" firstAttribute="trailing" secondItem="pFN-P0-cCg" secondAttribute="trailing" type="default" id="UOm-6S-EbR"/>
                             <constraint firstItem="4LY-3H-trY" firstAttribute="top" secondItem="pFN-P0-cCg" secondAttribute="top" type="default" id="WOM-3p-UVU"/>
-                            <constraint firstAttribute="trailing" secondItem="Bak-2y-7cM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="aOi-6w-jjT"/>
                             <constraint firstItem="N26-yr-pBt" firstAttribute="leading" secondItem="pFN-P0-cCg" secondAttribute="leading" constant="67" id="hB8-o3-QRy"/>
                             <constraint firstItem="lWc-pN-2i0" firstAttribute="baseline" secondItem="N26-yr-pBt" secondAttribute="baseline" type="default" id="yz4-PS-vUp"/>
                             <constraint firstAttribute="bottom" secondItem="N26-yr-pBt" secondAttribute="bottom" constant="79" id="zgF-Xp-yKr"/>
@@ -325,14 +325,26 @@
             </objects>
             <point key="canvasLocation" x="844" y="470"/>
         </scene>
-        <!--View Controller - 定位-->
+        <!--Map View Controller - 定位-->
         <scene sceneID="pnS-31-6fU">
             <objects>
-                <viewController id="pd8-7m-sc7" sceneMemberID="viewController">
+                <viewController id="pd8-7m-sc7" customClass="MapViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="92e-H7-glv">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="P5X-YI-V4L">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="380" id="4Ge-W4-BqR"/>
+                                </constraints>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="P5X-YI-V4L" firstAttribute="leading" secondItem="92e-H7-glv" secondAttribute="leading" type="default" id="8fR-1Z-6E1"/>
+                            <constraint firstItem="P5X-YI-V4L" firstAttribute="trailing" secondItem="92e-H7-glv" secondAttribute="trailing" type="default" id="8jH-Wt-a8m"/>
+                            <constraint firstItem="P5X-YI-V4L" firstAttribute="top" secondItem="92e-H7-glv" secondAttribute="top" type="default" id="Wid-A7-UH9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="定位" id="3Mm-W6-WHH"/>
                 </viewController>
@@ -627,6 +639,12 @@
         </class>
         <class className="CouponListViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CouponListViewController.h"/>
+        </class>
+        <class className="DetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+        </class>
+        <class className="MapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
