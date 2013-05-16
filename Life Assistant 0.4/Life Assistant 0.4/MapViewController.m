@@ -14,6 +14,8 @@
 
 @implementation MapViewController
 
+@synthesize map;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +29,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.map.delegate = self;
+    MKCoordinateRegion mapRegion;
+    mapRegion.center.latitude = 39.9057;
+    mapRegion.center.longitude = 116.4908;
+    mapRegion.span.latitudeDelta = 0.01;
+    mapRegion.span.longitudeDelta = 0.01;
+    [self.map setRegion:mapRegion animated:YES];
+    
+    CLLocationCoordinate2D myCoordinate;
+    myCoordinate.latitude = 39.9057;
+    myCoordinate.longitude = 116.4908;
+    MKPlacemark *myMarker;
+    myMarker = [[MKPlacemark alloc] initWithCoordinate:myCoordinate addressDictionary:nil];
+    [map addAnnotation:myMarker];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +53,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Locate:(id)sender {
+    
+    MKCoordinateRegion mapRegion;
+    mapRegion.center.latitude = 39.9057;
+    mapRegion.center.longitude = 116.4908;
+    mapRegion.span.latitudeDelta = 0.01;
+    mapRegion.span.longitudeDelta = 0.01;
+    [self.map setRegion:mapRegion animated:YES];
+    
+}
 @end

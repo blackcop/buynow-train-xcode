@@ -11,4 +11,6 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface MapViewController : UIViewController<MKMapViewDelegate,CLLocationManagerDelegate>
+@property (strong, nonatomic) IBOutlet MKMapView *map;
+- (IBAction)Locate:(id)sender;
 @end
