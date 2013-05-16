@@ -64,18 +64,45 @@
     return nil;
 }
 
+-(NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSUInteger row = [indexPath row];
+    if (row == 0)
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+        return nil;
+    }
+    
+    return indexPath;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 40;
+}
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"regionalCell"];
+    RegionalTableViewCell *cell=(RegionalTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"regionalCell"];
+    
+    if (cell== nil)
+    {
+        NSArray *nibViews = [[NSBundle mainBundle]loadNibNamed:@"RegionalTableViewCell" owner:self options:nil];
+        for (id aView in nibViews)
+        {
+            if ([aView isKindOfClass:[RegionalTableViewCell class]]) {
+                cell = (RegionalTableViewCell *)aView;
+            }
+        }
+    }
     
     switch (indexPath.section) {
         case 0:
-            cell.textLabel.text=[self.regional objectAtIndex:indexPath.row];
+            cell.lable2.text=[self.regional objectAtIndex:indexPath.row];
             break;
             
         default:
-            cell.textLabel.text=@"unkown";
+            cell.lable2.text=@"unkown";
             break;
     }
     return cell;

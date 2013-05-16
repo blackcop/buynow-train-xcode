@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegionalTableViewCell.h"
 
 @interface regionalScreeningViewController : UIViewController<UITableViewDataSource>
 
