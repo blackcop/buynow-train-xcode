@@ -31,7 +31,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return 10;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -42,6 +42,8 @@
 {
    
         NSString *CouponCellIdentifier = @"CouponCell";
+    UIImage *cellimage;
+    cellimage=[UIImage imageNamed:@"u9_normal.png"];
         CouponCell *cell = (CouponCell *)[tableView dequeueReusableCellWithIdentifier:CouponCellIdentifier];
         if (cell== nil)
         {
@@ -54,11 +56,12 @@
             }
         }
         
-        cell.NameLable.text = @"一碗香";
-        cell.DescriptionLable.text = @"全场8折";
-        cell.CountLable.text= @"123";
-        //cell.ImageView.image =
+        cell.NameLable.text = @"中华料理";
+        cell.DescriptionLable.text = @"非节假日凭券8折";
+        cell.CountLable.text= @"26";
+        cell.ImageView.image =cellimage;
         
+    
         return cell;
 }
 

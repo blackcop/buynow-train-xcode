@@ -1,27 +1,22 @@
 //
-//  AssociationViewController.m
+//  AssociasionDetailViewController.m
 //  Life Assistant 0.4
 //
-//  Created by john on 13-5-16.
+//  Created by john on 13-5-17.
 //  Copyright (c) 2013年 BSFit. All rights reserved.
 //
 
-#import "AssociationViewController.h"
+#import "AssociasionDetailViewController.h"
 
-@interface AssociationViewController ()
+@interface AssociasionDetailViewController ()
 
 @end
 
-@implementation AssociationViewController
+@implementation AssociasionDetailViewController
 
-@synthesize AssocaitionNotes;
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)initWithStyle:(UITableViewStyle)style
 {
-    
-    
-    
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
     }
@@ -29,10 +24,16 @@
 }
 
 - (void)viewDidLoad
-
 {
-    self.AssocaitionNotes = [[NSArray alloc] initWithObjects:@"同乡会", nil];
     [super viewDidLoad];
+    //self.TitleLable.text =@"东京同学会";
+    //self.DetailLable.text = @"周六晚上20:00一起去吃烧烤，国贸大厦门口集合";
+    UIButton *button = [UIButton buttonWithType: UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(0, 40, 320, 50);
+    [button setTitle: @"活动投稿" forState: UIControlStateNormal];
+    [button addTarget: self action: @selector(sendEMail) forControlEvents: UIControlEventTouchUpInside];
+    [self.view addSubview: button];
+
     
 
     // Uncomment the following line to preserve selection between presentations.
@@ -40,6 +41,15 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+}
+- (void) alertWithTitle: (NSString *)_title_ msg: (NSString *)msg
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:_title_
+                                                    message:msg
+                                                   delegate:nil
+                                          cancelButtonTitle:@"确定"
+                                          otherButtonTitles:nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,26 +64,27 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [self.AssocaitionNotes count];
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AssocaitionCell"];
-    cell.textLabel.text = @"东京同乡会"  ;
-    //cell.detailTextLabel.text = @"周六晚上8点烧烤...";
-    //cell.textLabel.text = [self.AssocaitionNotes objectAtIndex:indexPath.row];
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
     // Configure the cell...
     
     return cell;
 }
+
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -115,7 +126,7 @@
 */
 
 #pragma mark - Table view delegate
-/*
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
@@ -125,8 +136,6 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
-//}
-
-
+}
 
 @end
