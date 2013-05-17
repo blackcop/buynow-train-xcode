@@ -21,6 +21,7 @@
 		7C576A3F1746010B003AC5AD /* YuSuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C576A3E1746010B003AC5AD /* YuSuanViewController.m */; };
 		7C576A4117460FEB003AC5AD /* u9.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C576A4017460FEA003AC5AD /* u9.png */; };
 		7C576A4417461441003AC5AD /* LeiBieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C576A4317461441003AC5AD /* LeiBieViewController.m */; };
+		7C576A4717461670003AC5AD /* LeiBie2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C576A4617461670003AC5AD /* LeiBie2ViewController.m */; };
 		7CD11E931744C90E007045EF /* RegionalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CD11E921744C90E007045EF /* RegionalTableViewCell.xib */; };
 		7CD11E951744CAFE007045EF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD11E941744CAFE007045EF /* 2.png */; };
 		884A87C21742608A002E1F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884A87C11742608A002E1F11 /* UIKit.framework */; };
@@ -70,6 +71,8 @@
 		7C576A4017460FEA003AC5AD /* u9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = u9.png; sourceTree = "<group>"; };
 		7C576A4217461441003AC5AD /* LeiBieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiBieViewController.h; sourceTree = "<group>"; };
 		7C576A4317461441003AC5AD /* LeiBieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiBieViewController.m; sourceTree = "<group>"; };
+		7C576A451746166F003AC5AD /* LeiBie2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiBie2ViewController.h; sourceTree = "<group>"; };
+		7C576A4617461670003AC5AD /* LeiBie2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiBie2ViewController.m; sourceTree = "<group>"; };
 		7CD11E921744C90E007045EF /* RegionalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegionalTableViewCell.xib; sourceTree = "<group>"; };
 		7CD11E941744CAFE007045EF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "Life Assistant 0.4/2.png"; sourceTree = "<group>"; };
 		884A87BE1742608A002E1F11 /* Life Assistant 0.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life Assistant 0.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +159,8 @@
 				7C576A391745FE7E003AC5AD /* off.png */,
 				7C576A3A1745FE7E003AC5AD /* on.png */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				7C576A451746166F003AC5AD /* LeiBie2ViewController.h */,
+				7C576A4617461670003AC5AD /* LeiBie2ViewController.m */,
 				7C576A4217461441003AC5AD /* LeiBieViewController.h */,
 				7C576A4317461441003AC5AD /* LeiBieViewController.m */,
 				7C576A3D1746010B003AC5AD /* YuSuanViewController.h */,
@@ -313,6 +318,7 @@
 				7C576A381745FE03003AC5AD /* UICheakBox.m in Sources */,
 				7C576A3F1746010B003AC5AD /* YuSuanViewController.m in Sources */,
 				7C576A4417461441003AC5AD /* LeiBieViewController.m in Sources */,
+				7C576A4717461670003AC5AD /* LeiBie2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
