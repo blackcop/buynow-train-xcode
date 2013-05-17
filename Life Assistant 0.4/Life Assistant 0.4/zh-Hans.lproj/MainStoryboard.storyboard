@@ -499,6 +499,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SendEmail:" destination="Ks5-N8-w58" eventType="touchUpInside" id="Wxv-ez-5dc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -515,6 +518,7 @@
                     <navigationItem key="navigationItem" title="同乡会" id="X4T-aG-3LI"/>
                     <connections>
                         <outlet property="DetailLable" destination="1eG-Of-Wav" id="fYL-sZ-ZYS"/>
+                        <outlet property="EmailButton" destination="aAo-EH-9fH" id="PwT-Lc-wDm"/>
                         <outlet property="TitleLable" destination="9Z5-XV-GQr" id="BjI-IT-F0h"/>
                     </connections>
                 </viewController>

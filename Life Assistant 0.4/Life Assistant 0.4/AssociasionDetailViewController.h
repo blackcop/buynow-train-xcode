@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
 @interface AssociasionDetailViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *TitleLable;
 @property (weak, nonatomic) IBOutlet UILabel *DetailLable;
+@property (weak, nonatomic) IBOutlet UIButton *EmailButton;
+- (IBAction)SendEmail:(id)sender;
 
 @end
