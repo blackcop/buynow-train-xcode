@@ -12,6 +12,9 @@
 		525288DA17449EB6009F278B /* CouponListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525288D717449EB6009F278B /* CouponListViewController.m */; };
 		5285686A1745FD6D00A3D24C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528568691745FD6D00A3D24C /* MessageUI.framework */; };
 		5285686D1746108200A3D24C /* AssociasionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285686C1746108200A3D24C /* AssociasionDetailViewController.m */; };
+		528568701746226C00A3D24C /* MyCouponViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285686F1746226C00A3D24C /* MyCouponViewCell.m */; };
+		528568721746229200A3D24C /* MyCouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528568711746229200A3D24C /* MyCouponCell.xib */; };
+		5285687817462C5A00A3D24C /* MyCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285687717462C5A00A3D24C /* MyCouponViewController.m */; };
 		52A3D3741744B27500AAE5AB /* AssociationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A3D3731744B27500AAE5AB /* AssociationViewController.m */; };
 		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
@@ -58,6 +61,11 @@
 		528568691745FD6D00A3D24C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5285686B1746108200A3D24C /* AssociasionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociasionDetailViewController.h; sourceTree = "<group>"; };
 		5285686C1746108200A3D24C /* AssociasionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociasionDetailViewController.m; sourceTree = "<group>"; };
+		5285686E1746226C00A3D24C /* MyCouponViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCouponViewCell.h; sourceTree = "<group>"; };
+		5285686F1746226C00A3D24C /* MyCouponViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCouponViewCell.m; sourceTree = "<group>"; };
+		528568711746229200A3D24C /* MyCouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCouponCell.xib; sourceTree = "<group>"; };
+		5285687617462C5A00A3D24C /* MyCouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCouponViewController.h; path = ../MyCouponViewController.h; sourceTree = "<group>"; };
+		5285687717462C5A00A3D24C /* MyCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCouponViewController.m; path = ../MyCouponViewController.m; sourceTree = "<group>"; };
 		52A3D3721744B27500AAE5AB /* AssociationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociationViewController.h; sourceTree = "<group>"; };
 		52A3D3731744B27500AAE5AB /* AssociationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociationViewController.m; sourceTree = "<group>"; };
 		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
@@ -195,6 +203,11 @@
 				525288D317449EB5009F278B /* CouponCell.h */,
 				525288D417449EB5009F278B /* CouponCell.m */,
 				525288D517449EB6009F278B /* CouponCell.xib */,
+				5285686E1746226C00A3D24C /* MyCouponViewCell.h */,
+				5285686F1746226C00A3D24C /* MyCouponViewCell.m */,
+				528568711746229200A3D24C /* MyCouponCell.xib */,
+				5285687617462C5A00A3D24C /* MyCouponViewController.h */,
+				5285687717462C5A00A3D24C /* MyCouponViewController.m */,
 				525288D617449EB6009F278B /* CouponListViewController.h */,
 				525288D717449EB6009F278B /* CouponListViewController.m */,
 				88DA782F174365EE006F5613 /* SearchResultViewController.h */,
@@ -302,6 +315,7 @@
 				7C576A3B1745FE7F003AC5AD /* off.png in Resources */,
 				7C576A3C1745FE7F003AC5AD /* on.png in Resources */,
 				7C576A4117460FEB003AC5AD /* u9.png in Resources */,
+				528568721746229200A3D24C /* MyCouponCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,15 +337,14 @@
 				52A3D3741744B27500AAE5AB /* AssociationViewController.m in Sources */,
 				884CFA6F1744D546005173E6 /* DetailViewController.m in Sources */,
 				884CFA721744D5AB005173E6 /* MapViewController.m in Sources */,
-<<<<<<< HEAD
 				5285686D1746108200A3D24C /* AssociasionDetailViewController.m in Sources */,
-=======
 				7C576A301745F4B9003AC5AD /* RegionalScreeningViewController2.m in Sources */,
 				7C576A381745FE03003AC5AD /* UICheakBox.m in Sources */,
 				7C576A3F1746010B003AC5AD /* YuSuanViewController.m in Sources */,
 				7C576A4417461441003AC5AD /* LeiBieViewController.m in Sources */,
 				7C576A4717461670003AC5AD /* LeiBie2ViewController.m in Sources */,
->>>>>>> f5edaf03daa808f1126d1e95b1ee2cde1c6f39ba
+				528568701746226C00A3D24C /* MyCouponViewCell.m in Sources */,
+				5285687817462C5A00A3D24C /* MyCouponViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
