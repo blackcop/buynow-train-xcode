@@ -108,5 +108,13 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //RegionalScreeningViewController2 *hview=(RegionalScreeningViewController2 *)[]
+
+    UIAlertView *mess;
+    mess=[[UIAlertView alloc]initWithTitle:@"Choose" message:nil delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [mess show];
+}
 
 @end

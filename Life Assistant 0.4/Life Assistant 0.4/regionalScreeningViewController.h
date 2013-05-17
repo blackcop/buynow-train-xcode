@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "RegionalTableViewCell.h"
+#import "RegionalScreeningViewController2.h"
 
-@interface regionalScreeningViewController : UIViewController<UITableViewDataSource>
+@interface regionalScreeningViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @property(nonatomic,strong) NSArray *regional;
 
