@@ -31,7 +31,7 @@
 - (void)viewDidLoad
 
 {
-    self.AssocaitionNotes = [[NSArray alloc] initWithObjects:@"同乡会", nil];
+    //self.AssocaitionNotes = [[NSArray alloc] initWithObjects:@"同乡会", nil];
     [super viewDidLoad];
     
 
@@ -61,14 +61,15 @@
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [self.AssocaitionNotes count];
+    //return [self.AssocaitionNotes count];
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AssocaitionCell"];
     cell.textLabel.text = @"东京同乡会"  ;
-    //cell.detailTextLabel.text = @"周六晚上8点烧烤...";
+    cell.detailTextLabel.text = @"周六晚上8点烧烤...";
     //cell.textLabel.text = [self.AssocaitionNotes objectAtIndex:indexPath.row];
     // Configure the cell...
     
@@ -116,16 +117,18 @@
 
 #pragma mark - Table view delegate
 /*
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+    
+      AssociasionDetailViewController *detailViewController = [[AssociasionDetailViewController alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
-     */
-//}
+     
+}
+ */
 
 
 

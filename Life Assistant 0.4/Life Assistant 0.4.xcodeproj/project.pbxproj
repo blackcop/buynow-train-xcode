@@ -10,8 +10,8 @@
 		525288D817449EB6009F278B /* CouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525288D417449EB5009F278B /* CouponCell.m */; };
 		525288D917449EB6009F278B /* CouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 525288D517449EB6009F278B /* CouponCell.xib */; };
 		525288DA17449EB6009F278B /* CouponListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 525288D717449EB6009F278B /* CouponListViewController.m */; };
-		528568681745F7F300A3D24C /* AssociasionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528568671745F7F300A3D24C /* AssociasionDetailViewController.m */; };
 		5285686A1745FD6D00A3D24C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528568691745FD6D00A3D24C /* MessageUI.framework */; };
+		5285686D1746108200A3D24C /* AssociasionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285686C1746108200A3D24C /* AssociasionDetailViewController.m */; };
 		52A3D3741744B27500AAE5AB /* AssociationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A3D3731744B27500AAE5AB /* AssociationViewController.m */; };
 		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
@@ -46,9 +46,9 @@
 		525288D517449EB6009F278B /* CouponCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CouponCell.xib; path = ../CouponCell.xib; sourceTree = "<group>"; };
 		525288D617449EB6009F278B /* CouponListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponListViewController.h; path = ../CouponListViewController.h; sourceTree = "<group>"; };
 		525288D717449EB6009F278B /* CouponListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponListViewController.m; path = ../CouponListViewController.m; sourceTree = "<group>"; };
-		528568661745F7F200A3D24C /* AssociasionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociasionDetailViewController.h; sourceTree = "<group>"; };
-		528568671745F7F300A3D24C /* AssociasionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociasionDetailViewController.m; sourceTree = "<group>"; };
 		528568691745FD6D00A3D24C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5285686B1746108200A3D24C /* AssociasionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociasionDetailViewController.h; sourceTree = "<group>"; };
+		5285686C1746108200A3D24C /* AssociasionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociasionDetailViewController.m; sourceTree = "<group>"; };
 		52A3D3721744B27500AAE5AB /* AssociationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociationViewController.h; sourceTree = "<group>"; };
 		52A3D3731744B27500AAE5AB /* AssociationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociationViewController.m; sourceTree = "<group>"; };
 		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 				884CFA6E1744D546005173E6 /* DetailViewController.m */,
 				52A3D3721744B27500AAE5AB /* AssociationViewController.h */,
 				52A3D3731744B27500AAE5AB /* AssociationViewController.m */,
-				528568661745F7F200A3D24C /* AssociasionDetailViewController.h */,
-				528568671745F7F300A3D24C /* AssociasionDetailViewController.m */,
+				5285686B1746108200A3D24C /* AssociasionDetailViewController.h */,
+				5285686C1746108200A3D24C /* AssociasionDetailViewController.m */,
 				525288D317449EB5009F278B /* CouponCell.h */,
 				525288D417449EB5009F278B /* CouponCell.m */,
 				525288D517449EB6009F278B /* CouponCell.xib */,
@@ -282,7 +282,7 @@
 				52A3D3741744B27500AAE5AB /* AssociationViewController.m in Sources */,
 				884CFA6F1744D546005173E6 /* DetailViewController.m in Sources */,
 				884CFA721744D5AB005173E6 /* MapViewController.m in Sources */,
-				528568681745F7F300A3D24C /* AssociasionDetailViewController.m in Sources */,
+				5285686D1746108200A3D24C /* AssociasionDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

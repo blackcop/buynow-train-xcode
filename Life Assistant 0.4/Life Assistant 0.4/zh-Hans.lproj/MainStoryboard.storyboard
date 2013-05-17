@@ -415,7 +415,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="56" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="w8Z-F0-wq9">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AssocaitionCell" editingAccessoryType="detailDisclosureButton" textLabel="Ayx-xa-o7C" detailTextLabel="YjQ-aK-NVx" rowHeight="56" style="IBUITableViewCellStyleValue1" id="M6q-tU-JKE">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="AssocaitionCell" editingAccessoryType="detailDisclosureButton" textLabel="Ayx-xa-o7C" detailTextLabel="Oym-HR-dH3" rowHeight="56" style="IBUITableViewCellStyleValue1" id="M6q-tU-JKE">
                                         <rect key="frame" x="0.0" y="22" width="320" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -427,7 +427,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YjQ-aK-NVx">
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oym-HR-dH3">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -436,7 +436,7 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
                                         <connections>
-                                            <segue destination="DgX-VX-SIk" kind="push" id="88n-xJ-96c"/>
+                                            <segue destination="Ks5-N8-w58" kind="push" id="yND-6i-d3i"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -462,34 +462,37 @@
             </objects>
             <point key="canvasLocation" x="-479" y="1203"/>
         </scene>
-        <!--Association View Controller - Association Detail View Controller-->
-        <scene sceneID="uMD-mu-3iI">
+        <!--Associasion Detail View Controller - 同乡会-->
+        <scene sceneID="zok-8C-foN">
             <objects>
-                <viewController title="Association Detail View Controller" id="DgX-VX-SIk" customClass="AssociationViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MOQ-FD-a6e">
+                <viewController id="Ks5-N8-w58" customClass="AssociasionDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y3D-RP-cfc">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="lable" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HNa-JM-M8m">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Z5-XV-GQr">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="AxA-xT-y1j"/>
+                                    <constraint firstAttribute="height" constant="30" id="HcW-9e-0kC"/>
+                                    <constraint firstAttribute="width" constant="100" id="N1O-pl-7FA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1h-Fl-Z8o">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eG-Of-Wav">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="257" id="JpL-rD-05d"/>
-                                    <constraint firstAttribute="width" constant="287" id="Q2A-WV-cZt"/>
+                                    <constraint firstAttribute="height" constant="287" id="b57-52-bFH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBR-Wh-2mi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAo-EH-9fH">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="162" id="ZmL-Py-ag5"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="发起活动">
+                                <state key="normal" title="活动投稿">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -500,25 +503,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HNa-JM-M8m" firstAttribute="top" secondItem="MOQ-FD-a6e" secondAttribute="top" constant="20" symbolic="YES" type="default" id="0j1-Mh-qlo"/>
-                            <constraint firstAttribute="trailing" secondItem="VBR-Wh-2mi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="4Gt-zr-pFZ"/>
-                            <constraint firstAttribute="bottom" secondItem="VBR-Wh-2mi" secondAttribute="bottom" constant="32" id="8tp-Kl-tWW"/>
-                            <constraint firstItem="x1h-Fl-Z8o" firstAttribute="leading" secondItem="MOQ-FD-a6e" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Mhh-nJ-fZf"/>
-                            <constraint firstItem="x1h-Fl-Z8o" firstAttribute="top" secondItem="MOQ-FD-a6e" secondAttribute="top" constant="59" id="Yce-Tr-31t"/>
-                            <constraint firstItem="VBR-Wh-2mi" firstAttribute="centerX" secondItem="HNa-JM-M8m" secondAttribute="centerX" type="default" id="lkq-hX-Z9U"/>
-                            <constraint firstItem="VBR-Wh-2mi" firstAttribute="leading" secondItem="MOQ-FD-a6e" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xlr-En-29x"/>
+                            <constraint firstItem="aAo-EH-9fH" firstAttribute="centerX" secondItem="Y3D-RP-cfc" secondAttribute="centerX" type="default" id="8T7-nY-rzD"/>
+                            <constraint firstItem="1eG-Of-Wav" firstAttribute="top" secondItem="Y3D-RP-cfc" secondAttribute="top" constant="61" id="9I6-Tj-G6o"/>
+                            <constraint firstItem="9Z5-XV-GQr" firstAttribute="top" secondItem="Y3D-RP-cfc" secondAttribute="top" constant="20" symbolic="YES" type="default" id="JEE-IG-Brq"/>
+                            <constraint firstItem="1eG-Of-Wav" firstAttribute="leading" secondItem="Y3D-RP-cfc" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="bxI-4u-atq"/>
+                            <constraint firstItem="aAo-EH-9fH" firstAttribute="centerX" secondItem="1eG-Of-Wav" secondAttribute="centerX" type="default" id="ccQ-3a-erw"/>
+                            <constraint firstItem="aAo-EH-9fH" firstAttribute="top" secondItem="1eG-Of-Wav" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dOa-0Y-655"/>
+                            <constraint firstItem="9Z5-XV-GQr" firstAttribute="centerX" secondItem="1eG-Of-Wav" secondAttribute="centerX" type="default" id="k5j-cC-UnD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="活动详情" id="fgs-av-3y2"/>
+                    <navigationItem key="navigationItem" title="同乡会" id="X4T-aG-3LI"/>
                     <connections>
-                        <outlet property="DetailLable" destination="x1h-Fl-Z8o" id="vY7-Gw-WXM"/>
-                        <outlet property="EmailButton" destination="VBR-Wh-2mi" id="cM3-Me-w8u"/>
-                        <outlet property="TitleLable" destination="HNa-JM-M8m" id="BHt-uh-fcP"/>
+                        <outlet property="DetailLable" destination="1eG-Of-Wav" id="fYL-sZ-ZYS"/>
+                        <outlet property="TitleLable" destination="9Z5-XV-GQr" id="BjI-IT-F0h"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5dT-87-AxM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bBu-Yy-Sdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-468" y="1777"/>
+            <point key="canvasLocation" x="-513" y="1758"/>
         </scene>
         <!--View Controller - 我的优惠券-->
         <scene sceneID="qsn-l4-Hps">
@@ -810,35 +812,6 @@
         <image name="u17_normal.png" width="20" height="21"/>
         <image name="u9_normal.png" width="110" height="62"/>
     </resources>
-    <classes>
-        <class className="AssociationViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AssociationViewController.h"/>
-        </class>
-        <class className="CouponListViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CouponListViewController.h"/>
-        </class>
-        <class className="DetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-        </class>
-        <class className="MapViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MapViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SearchResultViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SearchResultViewController.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="regionalAction:"/>
-            </relationships>
-        </class>
-        <class className="regionalScreeningViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/regionalScreeningViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
