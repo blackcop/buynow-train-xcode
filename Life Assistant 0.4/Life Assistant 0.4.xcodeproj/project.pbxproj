@@ -16,6 +16,7 @@
 		528568721746229200A3D24C /* MyCouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528568711746229200A3D24C /* MyCouponCell.xib */; };
 		5285687817462C5A00A3D24C /* MyCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285687717462C5A00A3D24C /* MyCouponViewController.m */; };
 		52A3D3741744B27500AAE5AB /* AssociationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A3D3731744B27500AAE5AB /* AssociationViewController.m */; };
+		7C21C4D71747487A00E1FB77 /* SheShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21C4D61747487A00E1FB77 /* SheShiViewController.m */; };
 		7C2A12091743814B00EE0286 /* RegionalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */; };
 		7C53906A174326060006D48C /* regionalScreeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C539069174326060006D48C /* regionalScreeningViewController.m */; };
 		7C576A2F1745F4B9003AC5AD /* RegionalScreeningViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C576A2C1745F4B9003AC5AD /* RegionalScreeningViewcontroller.xib */; };
@@ -68,6 +69,8 @@
 		5285687717462C5A00A3D24C /* MyCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCouponViewController.m; path = ../MyCouponViewController.m; sourceTree = "<group>"; };
 		52A3D3721744B27500AAE5AB /* AssociationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssociationViewController.h; sourceTree = "<group>"; };
 		52A3D3731744B27500AAE5AB /* AssociationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssociationViewController.m; sourceTree = "<group>"; };
+		7C21C4D51747487A00E1FB77 /* SheShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheShiViewController.h; sourceTree = "<group>"; };
+		7C21C4D61747487A00E1FB77 /* SheShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheShiViewController.m; sourceTree = "<group>"; };
 		7C2A12071743814B00EE0286 /* RegionalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionalTableViewCell.h; sourceTree = "<group>"; };
 		7C2A12081743814B00EE0286 /* RegionalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionalTableViewCell.m; sourceTree = "<group>"; };
 		7C539068174326060006D48C /* regionalScreeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regionalScreeningViewController.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				7C576A391745FE7E003AC5AD /* off.png */,
 				7C576A3A1745FE7E003AC5AD /* on.png */,
 				884A87D91742608A002E1F11 /* MainStoryboard.storyboard */,
+				7C21C4D51747487A00E1FB77 /* SheShiViewController.h */,
+				7C21C4D61747487A00E1FB77 /* SheShiViewController.m */,
 				7C576A451746166F003AC5AD /* LeiBie2ViewController.h */,
 				7C576A4617461670003AC5AD /* LeiBie2ViewController.m */,
 				7C576A4217461441003AC5AD /* LeiBieViewController.h */,
@@ -345,6 +350,7 @@
 				7C576A4717461670003AC5AD /* LeiBie2ViewController.m in Sources */,
 				528568701746226C00A3D24C /* MyCouponViewCell.m in Sources */,
 				5285687817462C5A00A3D24C /* MyCouponViewController.m in Sources */,
+				7C21C4D71747487A00E1FB77 /* SheShiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
