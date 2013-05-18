@@ -11,7 +11,6 @@
 @interface ZongHeViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *zonghe;
 - (IBAction)clean3:(id)sender;
-@property (strong, nonatomic) IBOutlet UIButton *ddecide3;
 - (IBAction)hideKeyboard:(id)sender;
 - (IBAction)decide3:(id)sender;
 
